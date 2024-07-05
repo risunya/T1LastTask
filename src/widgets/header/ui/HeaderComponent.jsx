@@ -30,7 +30,7 @@ export const HeaderComponent = () => {
                     >
                         {isSun ? <SunLogo /> : <MoonLogo />}
                     </div>
-                        <a className="right-container__git-button" href="https://github.com/risunya/t1-api-task" target='_blank'>
+                        <a className="right-container__git-button" href="https://github.com/risunya/T1LastTask" target='_blank'>
                                 <GitHubLogo/>
                         </a>
                     </div>
