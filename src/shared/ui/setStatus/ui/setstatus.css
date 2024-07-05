@@ -1,0 +1,83 @@
+.set-status-wrapper {
+    max-width: 1320px;
+    margin: 3rem auto;
+    border: 1px solid var(--light-background-color);
+    border-radius: 1rem;
+    background-color: var(--secondary-background-color);
+}
+.set-status {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.set-status h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.set-status form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.set-status label {
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.set-status input {
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    margin-left: 3rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.set-status button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: .3s;
+}
+.set-status button:active {
+    transform: scale(.95);
+}
+.set-status button:disabled {
+    background-color: var(--light-gray);
+    cursor: not-allowed;
+}
+
+
+.set-status .error-message {
+    color: red;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
+.set-status .response-container {
+    margin-top: 2rem;
+}
+
+.set-status .response-container h3 {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.set-status .response-container pre {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--secondary-background-color);
+    padding: 1rem;
+}

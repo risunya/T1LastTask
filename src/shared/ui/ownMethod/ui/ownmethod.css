@@ -1,0 +1,100 @@
+.own-method-wrapper {
+    max-width: 1320px;
+    margin: 3rem auto;
+    border: 1px solid var(--light-background-color);
+    border-radius: 1rem;
+    background-color: var(--secondary-background-color);
+}
+.own-method {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.own-method h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.own-method div {
+    margin-bottom: 1.5rem;
+}
+
+.own-method label {
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.own-method input[type="text"],
+.own-method input[type="password"] {
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    margin-left: 3rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.own-method input[type="checkbox"] text {
+    margin-left: 2rem;
+}
+.custom-checkbox {
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+}
+.own-method button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    color: var(--text-color);
+    cursor: pointer;
+    width: 100%;
+    transition: .3s;
+    background-color: var(--background-color);
+}
+.own-method button:active {
+    transform: scale(.95);
+}
+
+.own-method .encoded-result {
+    margin-top: 2rem;
+}
+
+.own-method .encoded-result h3 {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.own-method .encoded-result p {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--secondary-background-color);
+    padding: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+}
+
+.own-method .encoded-result button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.own-method .error-message {
+    color: red;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}

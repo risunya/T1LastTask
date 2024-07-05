@@ -1,0 +1,88 @@
+.roles-method-wrapper {
+    max-width: 1320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    margin: 3rem auto;
+    gap: 3rem;
+    color: var(--text-color);
+    border: 1px solid var(--light-background-color);
+    border-radius: 5rem;
+    padding: 2rem 0;
+}
+.roles-method {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.roles-method-name {
+    font-size: 2.5rem;
+    margin: 2rem;
+    color: var(--text-color);
+}
+
+.roles-method-helpers {
+    font-size: 1.6rem;
+    color: var(--second-text-color);
+    margin: 2rem;
+}
+
+.roles-button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    cursor: pointer;
+    margin: 2rem;
+    width: 100%;
+    transition: .3s;
+}
+
+.roles-button:disabled {
+    background-color: var(--light-gray);
+    cursor: not-allowed;
+}
+
+.roles-method .error-message {
+    color: red;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+.roles-button:active {
+    transform: scale(.95);
+}
+.list-wrapper {
+    margin: 1rem 0;
+}
+.list-name {
+    font-size: 1em;
+    color: var(--second-text-color);
+    margin: 3rem 0;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.list-element {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    border: 1px solid var(--light-background-color);
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    transition: .3s;
+    cursor: pointer;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.list-element:hover {
+    background-color: var(--light-background-color);
+}

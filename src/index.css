@@ -1,0 +1,84 @@
+@import './app/styles/index.css';
+
+@font-face {
+    font-family: Rubick;
+    src:url(./app/fonts/Rubik.ttf)
+}
+html, body {
+    background-color: var(--background-color);
+    height: 100vh;
+}
+body {
+    font-family: Rubick;
+    line-height: 1.5;
+    font-weight: 400;
+
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+@media (min-width: 768px) { 
+    body,
+    html,
+    #root {
+        font-size: 12px; 
+    }
+}
+@media (max-width: 768px) { 
+    body,
+    html,
+    #root {
+        font-size: 7px; 
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400;
+}
+
+input,
+button {
+    outline: none;
+}
+button:hover {
+
+    background-color: var(--light-background-color);
+}
+
+a {
+    text-decoration: none;
+}

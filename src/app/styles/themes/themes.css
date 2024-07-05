@@ -1,0 +1,28 @@
+
+html {
+    transition: background-color 100ms linear;
+    background-color: var(--background-color);
+}
+
+html[data-theme='light'] {
+    --text-color:black;
+    --second-text-color: #5bcce6;
+    --reverse-text-color:white;
+    --background-color: white;
+    --reverse-background-color: black;
+    --light-background-color: #23272f0d;
+    --dark-background-color: #afa9a90d;
+}
+
+html[data-theme='dark'] {
+    --text-color:white;
+    --second-text-color: #00a9e6cc;
+    --reverse-text-color:black;
+    --background-color: #23272f;
+    --reverse-background-color: white;
+    --light-background-color: #ad97970d;
+    --dark-background-color: #2c313b0d;
+}
+
+
+

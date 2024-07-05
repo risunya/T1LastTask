@@ -1,0 +1,81 @@
+.get-code-wrapper {
+    width: 100%;
+    max-width: 1320px;
+    margin: 3rem auto;
+    border: 1px solid var(--light-background-color);
+    border-radius: 1rem;
+    background-color: var(--secondary-background-color);
+    display: flex;
+    justify-content: center;
+}
+.get-code {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+
+.get-code h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.get-code label {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.get-code input {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.get-code button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    cursor: pointer;
+    width: 100%;
+    transition: .3s;
+}
+
+.get-code button:disabled {
+    background-color: var(--light-gray);
+    cursor: not-allowed;
+}
+.get-code button:active {
+    transform: scale(.95);
+}
+.get-code .error-message {
+    color: red;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
+.get-code .code-container {
+    margin-top: 3rem;
+}
+
+.get-code .code-container h3 {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.get-code .code-container p {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-top: 1rem;
+    padding: 1rem;
+}

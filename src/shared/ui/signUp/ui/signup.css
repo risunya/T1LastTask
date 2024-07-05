@@ -1,0 +1,90 @@
+.sign-up-wrapper {
+    max-width: 1320px;
+    margin: 3rem auto;
+    border: 1px solid var(--light-background-color);
+    border-radius: 1rem;
+    background-color: var(--secondary-background-color);
+}
+.sign-up {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.sign-up h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.sign-up form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sign-up label {
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.sign-up input {
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    margin-left: 3rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.sign-up button {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border: 1px solid var(--light-background-color);
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sign-up button:hover {
+    background-color: var(--light-background-color);
+}
+.sign-up button:active {
+    transform: scale(.95);
+}
+.sign-up button:disabled {
+    cursor: not-allowed;
+    background-color: var(--background-color);
+}
+.sign-up .error-message {
+    color: red;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
+.sign-up .success-message {
+    color: green;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.sign-up .response-container {
+    margin-top: 2rem;
+}
+
+.sign-up .response-container h3 {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.sign-up .response-container pre {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--secondary-background-color);
+    white-space: pre-wrap;
+}
